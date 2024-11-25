@@ -3,11 +3,11 @@
 <p>Это сайт с шестью мини-играми, которые очень просты, увлекательны и помогут немного развлечься.</p>
 <h2>Инструкция по настройке</h2>
 <p>Получите бесплатный ключ API на https://example.com</p>
-<p>1. Клонируйте репозиторий<br>git клонировать https://github.com/Oksana-sky/Oksanaworld.git</p>
+<p>1. Клонируйте репозиторий<br>git клонировать https://github.com/Oksana-sky/furniture_shop.git</p>
 <p>2. Устанавливайте пакеты NPM<br>установка npm</p>
 <p>3. Введите свой API в config.js<br>const API_KEY = 'ВВЕДИТЕ СВОЙ КЛЮЧ API';</p>
 <p>4. Измените удаленный URL git, чтобы избежать случайных переходов к базовому проекту<br>
 git remote set-url origin имя_пользователя_github/название_репозитория<br>
 git remote -v # подтвердите изменения</p>
 <h2>При создании сайта были испльзованы:</h2>
-<p> HTML, CSS, SCSS, JavaScript, фреймворки и библиотеки React. js, Visual Studio Code</p>
+<p> HTML, CSS, SCSS, фреймворки и библиотеки React. js, Visual Studio Code</p>
