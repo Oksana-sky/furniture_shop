@@ -1,0 +1,139 @@
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 393px);
+        padding-right: calc(50% - 393px);
+    }
+
+    .top {
+        background-image: url(img/background_tablet.jpeg);
+    }
+
+    .logo {
+        margin-left: 1px;
+    }
+
+    .for {
+        margin-top: 32px;
+        display: grid;
+        column-gap: 31px;
+
+        &-box {
+            margin-bottom: 33px;
+        }
+
+        &__item {
+            height: 265px;
+            margin-top: -7px;
+        }
+
+        &__item_big {
+            height: 268px;
+            margin-top: 2px;
+        }
+    }
+
+    .catalog {
+        &__nav {
+            margin-top: 38px;
+            margin-bottom: 64px;
+            margin-left: 0;
+        }
+
+        &__nav1 {
+            margin-top: 36px;
+            margin-bottom: 64px;
+            margin-left: 0;
+        }
+
+        &__nav2 {
+            margin-top: 36px;
+        }
+    }
+
+    .product {
+        &-content {
+            column-gap: 28px;
+            row-gap: 39px;
+        }
+
+        &-content-catalog {
+            margin-top: 32px;
+            column-gap: 30px;
+            row-gap: 40px;
+        }
+
+        &-box1 {
+            margin-top: 33px;
+        }
+
+        &-catalog-content {
+            column-gap: 30px;
+            row-gap: 39px;
+        }
+    }
+
+    .footer {
+        &__logo {
+            display: none;
+        }
+
+        &__menu {
+            margin-left: 4px;
+        }
+        
+        &__text {
+            margin-right: 6px;
+        }
+        
+        &__button {
+            margin-right: 3px;
+        }
+    }
+
+    .cart {
+        gap: 64px;
+        grid-template-columns: repeat(8, 1fr);
+    }
+
+    .form {
+        width: 376px;
+        margin-top: 3px;
+
+        &__title{
+            margin-top: 40px;
+        }
+    
+        &__info {
+            margin-top: 37px;
+            margin-left: 30px;
+        }
+    }
+    
+    .info {
+        margin-top: 3px;
+    }
+    
+    .sum {
+        margin-left: 7px;
+    }
+    
+    .heading-special {
+        margin-bottom: 67px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 833px) {
+    .center {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+
+    .product {
+        width: 345px;
+    }
+
+    .heading {
+        font-size: 47px;
+
+    }
+}

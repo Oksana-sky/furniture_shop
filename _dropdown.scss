@@ -1,0 +1,128 @@
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.header-dropdown {
+    position: relative;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.header-cart {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    padding: 40px 48px 40px 48px;
+    cursor: pointer;
+}
+
+.header-cart a {
+    color: black;
+    display: block;
+    margin-top: 24px;
+}
+
+.header-cart a:hover {
+    background-color: #ddd;
+    position: absolute;
+}
+
+.header-dropdown:hover .header-cart {
+    display: flex;
+    margin-left: -500px;
+    margin-top: 530px;
+    width: 477px;
+    height: 400px;
+}
+
+.cart__item_dropdown1 {
+    border-top: none;
+    padding-bottom: 24px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 22px;
+    padding-top: 0;
+}
+
+.cart__item_dropdown2 {
+    padding-top: 24px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 22px;
+    padding-bottom: 0;
+}
+
+.cart__nav-box_dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: -24px;
+}
+
+.cart__link-box_dropdown {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.cart__img_dropdown {
+    height: 144px;
+    left: 122px;
+    top: 523px;
+}
+
+.cart__product_dropdown {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 208px;
+    max-height: 144px;
+}
+
+.cart__product-name {
+    font-size: $font-size-H3;
+    font-weight: 500;
+    line-height: 29px;
+    text-align: left;
+    color: #000;
+}
+
+.cart__text {
+    width: 55px;
+    height: 27px;
+    display: inline;
+    grid-column: span 1;
+    background: $background-color;
+    font-family: Poppins;
+    font-size: $font-size-text;
+    font-weight: 600;
+    text-align: center;
+    border: none;
+    outline: 0;
+}
+
+.cart__button {
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    font-size: $font-size-text;
+    font-weight: 400;
+    line-height: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 33px;
+    padding-right: 34px;
+    text-decoration: none;
+    color: black;
+    width: 207px;
+}

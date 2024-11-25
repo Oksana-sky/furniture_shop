@@ -1,0 +1,24 @@
+@media (max-width: 767px) {
+    #myDialog {
+        width: 191px;
+        height: 830px;
+        left: 0;
+    }
+
+    .modal {
+        &-form__button {
+            margin-left: 0;
+            margin-top: 36px;
+            margin-bottom: 40px;
+        }
+
+        &__close {
+            margin-top: 90px;
+        }
+
+        &__button{
+            margin-left: 0;
+        }
+    }
+    
+}
